@@ -1,0 +1,33 @@
+{
+  "name": "lightning-component-sass",
+  "version": "1.0.0",
+  "description": "Use SASS to Style Lightning Components.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=9.5.0",
+    "npm": ">=5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefinancialclinic/lightning-component-sass.git"
+  },
+  "author": "Brian Bier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thefinancialclinic/lightning-component-sass/issues"
+  },
+  "homepage": "https://github.com/thefinancialclinic/lightning-component-sass#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-tap": "^1.0.1"
+  }
+}
