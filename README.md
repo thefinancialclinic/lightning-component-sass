@@ -19,7 +19,17 @@ Use SASS to Style Lightning Components.
 ```
 
 
-- To prepare the gulp file you:
+- Steps to prepare the gulp file for AURA:
+  - npm install
+  - gulp create-sass (only run the first time you set this up)
+    - I suggest committing this file
+  - gulp copy-sass
+    - I suggest committing this file
+  - To watch for any changes to the scss folder run
+    - gulp watcher
+
+
+- Steps to prepare the gulp file for LWC:
   - npm install
   - gulp create-sass (only run the first time you set this up)
     - I suggest committing this file
