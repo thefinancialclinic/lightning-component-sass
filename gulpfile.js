@@ -53,18 +53,18 @@ function copySass() {
                 Making it easier for development.
 */
 gulp.task('aura-watcher', function () {
-    gulp.watch(AURA_SASS_DIR, gulp.series('copy-sass'));
+    gulp.watch(AURA_SASS_DIR, gulp.series('copy-aura-sass'));
 })
 
 /*
 * @Description  Create a sass directory. Only Run this the first time you install this package.
 */
-gulp.task('create-sass', createSass);
+gulp.task('create-aura-sass', createSass);
 
 /*
 * @Description  Copy the sass directory into the aura directory
 */
-gulp.task('copy-sass', copySass);
+gulp.task('copy-aura-sass', copySass);
 
 
 
