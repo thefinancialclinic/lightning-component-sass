@@ -26,7 +26,7 @@ Use SASS to Style Lightning Components.
   - gulp copy-aura-sass
     - I suggest committing this file
   - To watch for any changes to the scss folder run
-    - gulp watcher
+    - gulp aura-watcher
 
 
 - Steps to prepare the gulp file for LWC:
@@ -36,7 +36,7 @@ Use SASS to Style Lightning Components.
   - gulp copy-lwc-sass
     - I suggest committing this file
   - To watch for any changes to the scss folder run
-    - gulp watcher
+    - gulp lwc-watcher
 
 
 
