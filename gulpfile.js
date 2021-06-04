@@ -1,14 +1,13 @@
 let gulp = require('gulp');
-let babel = require('gulp-babel');
-let changed = require('gulp-changed');
 let rename = require('gulp-rename');
-let sass = require('gulp-sass');
+let sass = require('gulp-dart-sass');
+let changed = require('gulp-changed');
 let postcss = require('gulp-postcss');
 let cleanCSS = require('gulp-clean-css');
 let purgecss = require('gulp-purgecss');
-const atimport = require("postcss-import");
-const tailwindcss = require("tailwindcss");
-let tailwindConfig = "tailwind.config.js"
+const atimport = require('postcss-import');
+const tailwindcss = require('tailwindcss');
+let tailwindConfig = 'tailwind.config.js';
 
 //Aura Variables
 let AURA_SRC_DIR = 'force-app/main/default/aura'; // force-app/main/default/aura
